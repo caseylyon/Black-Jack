@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="site.css">
+</head>
+<body>
+	<div>
+		<button id='btnPlay' class='btn btn-default'>Play</button>
+		<button id='btnHit' class='btn btn-success hidden'>Hit</button>
+		<button id='btnStay' class='btn btn-danger hidden'>Stay</button>
+		<button id='btnReplay' class='btn btn-default hidden'>Play-Again</button>
+	</div>
+<div id="dealerCards" class="hidden">
+            <img id="dealerCard1" class="card" src="img/back.png" alt="">
+            <img id="dealerCard2" class="card" src="img/back.png" alt="">
+        </div>
+        <div id="playerCards" class="hidden">
+            <img id="playerCard1" class="card" src="img/back.png" alt="">
+            <img id="playerCard2" class="card" src="img/back.png" alt="">
+        </div>
+	<div id='divWinner' class='hidden'></div>
+
+	<script src="app.js"></script>
+</body>
+</html>
